@@ -15,7 +15,7 @@ http://introcs.cs.princeton.edu/java/11style/)
 
 >*Include a bold comment at the beginning of each file.*
 
-   ```  /**
+     ```/**
          * Get the total value of all items in the purse.
          *
          *@return the total value of items in the purse.
@@ -26,7 +26,7 @@ http://introcs.cs.princeton.edu/java/11style/)
 	             balance += valuable.getValue();
                  }
 	         return balance;
-	     }   ```
+	     }```
 
 
 ###2.Whitespace.
