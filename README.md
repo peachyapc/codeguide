@@ -26,7 +26,7 @@ http://introcs.cs.princeton.edu/java/11style/)
 	             balance += valuable.getValue();
                  }
 	         return balance;
-	     }```
+	     }   ```
 
 
 ###2.Whitespace.
