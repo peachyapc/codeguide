@@ -15,18 +15,18 @@ http://introcs.cs.princeton.edu/java/11style/)
 
 >*Include a bold comment at the beginning of each file.*
 
-     ```/**```
-      ```* Get the total value of all items in the purse.```
-      ```*```
-      ```*@return the total value of items in the purse.```
-      ```*/```
-	 public double getBalance() {
-	     double balance = 0;
-	     for (Valuable valuable : money) {
-	         balance += valuable.getValue();
-             }
-	     return balance;
-	 }```
+     ```/**
+         * Get the total value of all items in the purse.
+         *
+         *@return the total value of items in the purse.
+         */
+	     public double getBalance() {
+	         double balance = 0;
+	         for (Valuable valuable : money) {
+	             balance += valuable.getValue();
+                 }
+	         return balance;
+	     }```
 
 
 ###2.Whitespace.
