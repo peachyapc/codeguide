@@ -1,9 +1,9 @@
 ##codeguide
 ###Useful references:
-*Create Descriptive Names* By Diomidis Spinellis.
-http://www.informit.com/articles/article.aspx?p=2223710
-*Commenting and Documentation and Whitespace* By Robert Sedgewick and Kevin Wayne.
-http://introcs.cs.princeton.edu/java/11style/
+*Create Descriptive Names* By Diomidis Spinellis. [Link](
+http://www.informit.com/articles/article.aspx?p=2223710 )
+*Commenting and Documentation and Whitespace* By Robert Sedgewick and Kevin Wayne. [Link] (
+http://introcs.cs.princeton.edu/java/11style/)
 
 
 ###Examples
