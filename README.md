@@ -15,11 +15,11 @@ http://introcs.cs.princeton.edu/java/11style/)
 
 >*Include a bold comment at the beginning of each file.*
 
-     ```/**
-         * Get the total value of all items in the purse.
-	 *
-	 *@return the total value of items in the purse.
-	 */
+     ```/**```
+      ```* Get the total value of all items in the purse.```
+      ```*```
+      ```*@return the total value of items in the purse.```
+      ```*/```
 	 public double getBalance() {
 	     double balance = 0;
 	     for (Valuable valuable : money) {
@@ -37,8 +37,6 @@ http://introcs.cs.princeton.edu/java/11style/)
 
 >*Use spaces to align parallel code whenever it enhances readability.*
 
-####EX.
-
 ```for(int i=0;i<n;i++)    vs.      for (int i = 0; i < n; i++)```
 
 
@@ -51,7 +49,7 @@ http://introcs.cs.princeton.edu/java/11style/)
 >*Constant : Use all capital letters and separate internal words with the underscore character.*
 ```MAX_HEIGHT, CONSTANT_CURRENCY```
 
->*Class : A noun that communicates what the class represents. *
+>*Class : A noun that communicates what the class represents.*
 ```class Complex, class PhoneNumber```
 
 >*Method : A verb that communicates what the method does.*
