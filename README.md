@@ -15,7 +15,7 @@ http://introcs.cs.princeton.edu/java/11style/)
 
 >*Include a bold comment at the beginning of each file.*
 
-     ```/**
+   ```  /**
          * Get the total value of all items in the purse.
          *
          *@return the total value of items in the purse.
@@ -44,13 +44,17 @@ http://introcs.cs.princeton.edu/java/11style/)
 >*Use meaningful names that convey the purpose of the variable.*
 
 >*Variables : A short, but meaningful*
+
 ```isPrime, mass```
 
 >*Constant : Use all capital letters and separate internal words with the underscore character.*
+
 ```MAX_HEIGHT, CONSTANT_CURRENCY```
 
 >*Class : A noun that communicates what the class represents.*
+
 ```class Complex, class PhoneNumber```
 
 >*Method : A verb that communicates what the method does.*
-```move(),draw()```
+
+```move (), draw ()```
