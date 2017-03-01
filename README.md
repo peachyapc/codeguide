@@ -9,21 +9,20 @@ http://introcs.cs.princeton.edu/java/11style/)
 
 ###Examples
 ###1.Commenting and Documentation 
-*-Comment every important variable name*
+>*Comment every important variable name*
 
-*-Comment each method with a description of what it does, its parameters, and what it returns, as well as possible errors and exceptions.*
+>*Comment each method with a description of what it does, its parameters, and what it returns, as well as possible errors and exceptions.*
 
-*-Include a bold comment at the beginning of each file.*
+>*Include a bold comment at the beginning of each file.*
 
-'
-        /**
-	 * Get the total value of all items in the purse.
-	 * 
-	 * @return the total value of items in the purse.
-	 */
-	public double getBalance() {
-	    double balance = 0;
-	    for (Valuable valuable : money) {
-		balance += valuable.getValue();					      	    }									            return balance;								} ' 
+     ```/**<br>
+         * Get the total value of all items in the purse.<br>
+	 * <br>
+	 * @return the total value of items in the purse.<br>
+	 */<br>
+	public double getBalance() {<br>
+	    double balance = 0;<br>
+	    for (Valuable valuable : money) {<br>
+		balance += valuable.getValue();	<br>				      	    }	<br>							                    return balance;<br>								}```
 
 
