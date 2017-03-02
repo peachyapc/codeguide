@@ -97,7 +97,7 @@ if (j < 5) {
 ```move (), draw ()```
 
 
-4.Avoid returning anonymous or inner classes
+###4.Avoid returning anonymous or inner classes
 >*They keep a reference to the outer instance.And they will drag that outer instance to wherevery they go, e.g. to some scope outside of your local class if you’re not careful. This can be a major source for memory leaks, as your whole object graph will suddenly entangle in subtle ways.*
 
 >The Rule: Whenever you write an anonymous, local or inner class, 
