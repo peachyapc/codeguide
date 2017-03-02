@@ -37,31 +37,17 @@ private double pointX, pointY;
 >*Comment each method with a description of what it does, its parameters, and what it returns, as well as possible errors and exceptions.*
 
 
-        /**
-         * Get the total value of all items in the purse.
-         *
-         *@return the total value of items in the purse.
-         */
-	     public double getBalance() {
-	         double balance = 0;
-	         for (Valuable valuable : money) {
-	             balance += valuable.getValue();
-                 }
-	         return balance;
-	     }
-
-
 ```
 /**
 * Returns the object at the top of this stack without removing it. 
 * @return  the object at the top of this stack. 
 * @exception  NoSuchElementException  if this stack is empty.
 */
-public Object peek() throws NoSuchElementException
-{	int length = this.elements.size();
-	if (length == 0) throw new NoSuchElementException();
-		return this.elements.get(length - 1);
-		}
+public Object peek() throws NoSuchElementException{
+    int length = this.elements.size();
+    if (length == 0) throw new NoSuchElementException();
+    return this.elements.get(length - 1);
+}
 ```
 
 ###2.Whitespace.
@@ -72,13 +58,17 @@ public Object peek() throws NoSuchElementException
 
 >*Don't put more than one statement on a line.*
 
-```Bad example
-if(j<5){System.out.print(j);}```
+```
+Bad example
+if(j<5){System.out.print(j);}
+```
 
-```Good example
+```
+Good example
 if (j < 5) {
     System.out.print(j);
-}```
+}
+```
 
 >*Use spaces to align parallel code whenever it enhances readability.*
 
@@ -114,12 +104,14 @@ if (j < 5) {
 check if you can make it static or even a regular top-level class. Avoid returning anonymous, local or inner class instances from methods to the outside scope.
 
 
-```Avoid doing this 
-			Collections.sort(money, new Comparator<Valuable>() {
-			 
-			  				@Override
-							 				public int compare(Valuable o1, Valuable o2) {
-											 					return o1.getCurrency().compareTo(o2.getCurrency());
-																 				}			
-																				 			});```
+```
+Avoid doing this
+
+Collections.sort(money, new Comparator<Valuable>() {
+    @Override
+    public int compare(Valuable o1, Valuable o2) {
+	return o1.getCurrency().compareTo(o2.getCurrency());
+    }			
+});
+```
 
