@@ -11,25 +11,28 @@ http://introcs.cs.princeton.edu/java/11style/)
 ###1.Commenting and Documentation 
 >*A bold comment at the beginning of each file.*
 
-```package work;
+```
+package work;
 
 import java.util.NoSuchElementException;
 import java.util.ArrayList;
 
 /**
  * The Stack class represents a last-in-first-out stack of objects. 
-  * @author  Joseph Bergin
-   * @version 1.0, May 2000
-    * Note that this version is not thread safe. 
-     */
-     public class Stack 
-     {...}```
+ * @author  Joseph Bergin
+ * @version 1.0, May 2000
+ * Note that this version is not thread safe. 
+ */
+ public class Stack {...}
+ ```
 
 >*Comment every important variable name*
 
 ```
 //  position x,y of the graph
-private double pointX, pointY;   ```
+private double pointX, pointY;
+```
+
 
 >*Comment each method with a description of what it does, its parameters, and what it returns, as well as possible errors and exceptions.*
 
@@ -48,7 +51,8 @@ private double pointX, pointY;   ```
 	     }
 
 
-```/**
+```
+/**
 * Returns the object at the top of this stack without removing it. 
 * @return  the object at the top of this stack. 
 * @exception  NoSuchElementException  if this stack is empty.
@@ -57,7 +61,8 @@ public Object peek() throws NoSuchElementException
 {	int length = this.elements.size();
 	if (length == 0) throw new NoSuchElementException();
 		return this.elements.get(length - 1);
-		}```
+		}
+```
 
 ###2.Whitespace.
 
