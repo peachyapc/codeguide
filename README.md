@@ -94,7 +94,7 @@ if (j < 5) {
 
 >*Method : A verb that communicates what the method does.*
 
-```move (), draw ()```
+```move (), draw (), isDrive()```
 
 
 ###4.Avoid returning anonymous or inner classes
