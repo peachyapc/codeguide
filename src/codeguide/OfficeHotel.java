@@ -22,8 +22,11 @@ public class OfficeHotel {
 		/** A list name of guest in the hotel */
 		// TODO Change variable name in to appropriate meaning name
 		private List<String> g = new ArrayList<String>();
+		
 		/** How many room in the Hotel*/
-		private int countRoom;
+		// TODO Change variable name in to appropriate meaning name
+		private int r;
+		
 		/** */
 		private int amountOfGuest;
 
@@ -32,7 +35,7 @@ public class OfficeHotel {
 		 * @param countRoom is a capacity of the room in the hotel.
 		 */
 		public OfficeHotel(int countRoom) {
-			this.countRoom = countRoom;
+			this.r = countRoom;
 		}
 
 		/**
@@ -60,7 +63,7 @@ public class OfficeHotel {
 		 * @return
 		 */
 		public int getAmountOfGuest() {
-			this.amountOfGuest = countRoom - count();
+			this.amountOfGuest = r - count();
 			return this.amountOfGuest;
 		}
 
@@ -71,8 +74,7 @@ public class OfficeHotel {
 		 */
 		//TODO Make the code readable.
 		public boolean isRoomFree() {
-			if (g.size()>= this.countRoom){return true;}
-			return false;
+			if(g.size()>= this.r){return true;}return false;
 		}
 
 		/**
@@ -87,9 +89,7 @@ public class OfficeHotel {
 					return name1.compareToIgnoreCase(name2);
 				}
 			});
-			for (int i = 0; i < g.size(); i++) {
-				System.out.println(g.get(i));
-			}
+			for(int i=0;i<g.size();i++){System.out.println(g.get(i));}
 		}
 
 		/**
