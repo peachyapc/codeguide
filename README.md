@@ -117,4 +117,4 @@ Collections.sort(money, new Comparator<Valuable>() {
 
 ###Exercise
 
-[exercise]
+[exercise](https://github.com/peachyapc/codeguide/blob/master/src/codeguide/OfficeHotel.java)
