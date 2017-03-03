@@ -115,3 +115,6 @@ Collections.sort(money, new Comparator<Valuable>() {
 });
 ```
 
+###Exercise
+
+[exercise] (https://github.com/peachyapc/codeguide/blob/master/src/codeguide/Hotel.java)
